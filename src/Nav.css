@@ -1,0 +1,44 @@
+
+/* Nav */
+.nav {
+    height: 30px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    transition: opacity 0.5s;
+}
+
+.nav__logo {
+    position: fixed;
+    left: 10px;
+    top: 0;
+    width: 120px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.nav__avatar {
+    width: 50px;
+    position: fixed;
+    right: 20px;
+    cursor: pointer;
+}
+
+.nav__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav--black {
+    background-color: #111;
+}
+
+.hidden {
+    opacity: 0;
+    max-height: 0;
+}
