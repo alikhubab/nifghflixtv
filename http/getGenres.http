@@ -1,0 +1,4 @@
+GET https://api.themoviedb.org/3/genre/movie/list?language=en
+Authorization: Bearer {{auth_token}}
+
+###

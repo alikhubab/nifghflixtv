@@ -16,11 +16,16 @@ function Nav(props) {
   return (
     <div className={`nav ${show && "nav--black"}`}>
       <div className="nav__content">
-        <img
-          className="nav__logo"
-          src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
-          alt="night flix tv logo"
-        />
+        <div
+          className={`nav__logo-container ${!show && "nav__logo--bordered"}`}
+        >
+          {/*<img*/}
+          {/*  className="nav__logo"*/}
+          {/*  src="https://www.freepnglogos.com/uploads/netflix-logo-circle-png-5.png"*/}
+          {/*  alt="night flix tv logo"*/}
+          {/*/>*/}
+          <h1 className="logo-text">NIGHTFLIX TV</h1>
+        </div>
         <img
           className="nav__avatar"
           src="https://t4.ftcdn.net/jpg/02/90/69/81/360_F_290698110_sjMP3qVdWlJnJfJuzhqGDhRCmTrR2jsl.jpg"

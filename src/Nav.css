@@ -14,12 +14,11 @@
 }
 
 .nav__logo {
-    position: fixed;
     left: 10px;
     top: 0;
-    width: 120px;
     padding-left: 20px;
     cursor: pointer;
+    height: 60px;
 }
 
 .nav__avatar {
@@ -32,6 +31,7 @@
 .nav__content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav--black {
@@ -41,4 +41,23 @@
 .hidden {
     opacity: 0;
     max-height: 0;
+}
+
+
+.nav__logo-container {
+    display: flex;
+    flex-direction: row;
+    color: var(--color-primary);
+    align-items: center;
+}
+
+.nav__logo-container .logo-text {
+    background-color: #111;
+    padding: 4px 12px;
+    border-radius: 100px;
+}
+
+.nav__logo--bordered .logo-text {
+    border: 1px solid var(--color-primary);
+
 }
