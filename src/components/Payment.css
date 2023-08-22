@@ -1,0 +1,11 @@
+.paymentForm {
+    background-color: var(--color-primary);
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    width: 50%;
+    max-width: 35rem;
+    padding: 4rem;
+}
+
